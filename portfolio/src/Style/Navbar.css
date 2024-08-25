@@ -1,0 +1,25 @@
+.hero {
+    background-color: #121412e0;
+    color: white;
+    text-align: center;
+    padding: 50px 20px; 
+    
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navigation li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+  }
+ 
+  
