@@ -1,0 +1,45 @@
+.services {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-item {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px; /* Perspective for 3D effect */
+}
+
+.diamond {
+  margin: 15px;
+  width: 150px;
+  height: 150px;
+  background: #4CAF50; /* Green background */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(45deg);
+  font-size: 14px;
+  position: relative;
+}
+
+.diamond h3, .diamond p {
+  margin: 0;
+  transform: rotate(-45deg); /* Rotate text back to normal */
+}
