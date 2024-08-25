@@ -1,10 +1,11 @@
 
 import './App.css';
+import Homepage from './Pages/Homepage';
+import Content from './Pages/Content';
 
 import About from './Pages/About';
 
-import Homepage from './Pages/Homepage';
-import Content from './Pages/Content';
+
 
 function App() {
   return (
