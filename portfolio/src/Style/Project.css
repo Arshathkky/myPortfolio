@@ -1,14 +1,13 @@
 .project {
-  border: 1px solid #333; /* Darker border for dark theme */
-  border-radius: 8px;
+  border: 1px solid #333; 
   padding: 16px;
   margin: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #1e1e1e; /* Dark background color for the project card */
-  color: #f0f0f0; /* Light text color */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow */
+  background-color: #1e1e1e; 
+  color: #f0f0f0; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .project-image {
@@ -18,6 +17,24 @@
   border-radius: 8px;
 }
 
+.project-image-placeholder {
+  width: 100%;
+  max-width: 600px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #555; 
+  border-radius: 8px;
+  background-color: #333; 
+}
+
+.project-image-placeholder p {
+  color: #888; 
+  font-size: 1.2em;
+  margin: 0;
+}
+
 .project-content {
   text-align: center;
 }
@@ -25,7 +42,7 @@
 .project-title {
   font-size: 1.5em;
   margin-bottom: 8px;
-  color: #f0f0f0; /* Light color for the title */
+  color: #f0f0f0;
 }
 
 .project-description {
@@ -39,10 +56,39 @@
 }
 
 .project-link {
-  color: #1e90ff; /* Bright color for links */
+  color: #1e90ff;
   text-decoration: none;
 }
 
 .project-link:hover {
   text-decoration: underline;
+}
+
+.read-more-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.read-more-button {
+  margin: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4CAF50; 
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.read-more-button:hover {
+  background-color: #45a049; 
+  transform: scale(1.05); 
+}
+
+.read-more-button:active {
+  background-color: #388e3c; 
 }

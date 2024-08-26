@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import '../Style/Project.css'; 
+
 const Project = ({ title, description, technologies, link, image }) => {
-  
   const variants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 },
@@ -23,7 +23,9 @@ const Project = ({ title, description, technologies, link, image }) => {
           className="project-image"
         />
       ) : (
-        <p>No image available</p>
+        <div className="project-image-placeholder">
+          <p>No image available</p>
+        </div>
       )}
       <div className="project-content">
         <h2 className="project-title">{title}</h2>
