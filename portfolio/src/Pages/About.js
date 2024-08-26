@@ -30,7 +30,7 @@ const AboutMe = () => {
 
         <section className="contact">
           <h2>Download CV</h2>
-          <a href="[URL to Your CV]" className="download-cv-button" download>
+          <a href="https://drive.google.com/file/d/12z4qtoYnd4Ggchtlp_geSKOs_lIBJ_0u/view?usp=drive_link" className="download-cv-button" download>
             Download CV
           </a>
         </section>

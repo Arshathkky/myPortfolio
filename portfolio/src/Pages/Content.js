@@ -9,7 +9,7 @@ const Content = () => {
 
   // Define animations for each section
   const slideInMySkills = useTransform(scrollYProgress, [0, 0.3], ['750px', '0px']);
-  const rotateServices = useTransform(scrollYProgress, [0.3, 0.6], [0, 360]);
+  const rotateServices = useTransform(scrollYProgress, [0.3, 0.4], [0, 360]);
 
   return (
     <div>
@@ -37,17 +37,7 @@ const Content = () => {
         <Services />
       </motion.div>
 
-      <motion.div
-        initial={{ scale: 0.8 }}
-        animate={{ scale: 1 }}
-        transition={{
-          type: "spring",
-          stiffness: 120,
-          damping: 10
-        }}
-      >
-        <ProjectList />
-      </motion.div>
+      <ProjectList />
     </div>
   );
 };
