@@ -11,7 +11,7 @@ const ProjectList = () => {
   };
 
   return (
-    <div className="portfolio">
+    <div id='projects' className="portfolio">
       {projects.slice(0, showAll ? projects.length : 2).map((project, index) => (
         <Project
           key={index}

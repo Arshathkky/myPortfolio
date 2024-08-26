@@ -18,7 +18,7 @@ const skills = [
 
 const MySkills = () => {
   return (
-    <div className="skills-container">
+    <div id='skills' className="skills-container">
       <h2>My Skills</h2>
       {skills.map((skill, index) => (
         <SkillBar key={index} name={skill.name} level={skill.level} />

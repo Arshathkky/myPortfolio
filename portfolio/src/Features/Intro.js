@@ -1,11 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import {ReactTyped as Typed} from 'react-typed';
-import '../Style/Intro.css'; 
+import { ReactTyped as Typed } from 'react-typed';
+import '../Style/Intro.css';
 
 const Intro = () => {
   return (
-    <div className="intro-container">
+    <div id="home" className="intro-container">
       <motion.div 
         className="intro-background"
         initial={{ scale: 1.1, opacity: 0 }}

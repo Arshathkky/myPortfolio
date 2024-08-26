@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import '../Style/Services.css'; // Import the CSS file
+import '../Style/Services.css';
 
 const services = [
   { title: 'Web Development' },
@@ -19,7 +19,7 @@ const ServiceItem = ({ title, description }) => (
 );
 
 const Services = () => (
-  <div className="services">
+  <div id='services' className="services">
     <h2>Our Services</h2>
     <div className="services-container">
       {services.map((service, index) => (

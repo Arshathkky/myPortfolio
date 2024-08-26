@@ -7,7 +7,7 @@ const AboutMe = () => {
   const scale = useTransform(scrollYProgress, [0, 1], [0.1, 1]);
 
   return (
-    <div className="about-me">
+    <div id='contact' className="about-me">
       <motion.div
         className="container"
         style={{ scale }}
